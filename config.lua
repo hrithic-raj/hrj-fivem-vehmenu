@@ -26,19 +26,21 @@ Config.VehicleCategories = {
             { name = "italigtoc", label = "Beeran" },
             { name = "2000gtr", label = "Beeran GTR" },
             { name = "7d_judy_m2", label = "Jude M2" },
+            { name = "s13neverlift", label = "Minu's bandi" },
         }
     },
     {
         label = "VINTAGE",
         acePerm = "devx.vehiclemenu.vintage",
         vehicles = {
-            { name = "demod_e92bagged", label = "BMW" },
+            { name = "mb300slpxxbk", label = "mb300slpxxbk" },
             { name = "fleetline48", label = "fleetline48" },
             { name = "jagxjs80", label = "Jaguar" },
             { name = "mk2tahomalow", label = "mk2tahomalow" },
             { name = "rrshelbycobra", label = "rrshelbycobra" },
             { name = "ikx3rsr", label = "ikx3rsr" },
             { name = "rrporsche", label = "rrporsche" },
+            { name = "caponneMK2", label = "caponneMK2" },
         }
     },
     {
@@ -49,6 +51,7 @@ Config.VehicleCategories = {
             { name = "davidson22", label = "davidson22" },
             { name = "r1", label = "r1" },
             { name = "GODzBMWS1000RR", label = "BMWS1000RR" },
+            { name = "cbr1000rrr", label = "cbr1000rrr" },
         }
     },
     {
@@ -60,6 +63,7 @@ Config.VehicleCategories = {
             { name = "bm_tacoma", label = "bm_tacoma"},
             { name = "RubberRufus", label = "RubberRufus" },
             { name = "willysmb", label = "willysmb" },
+            { name = "fx50s", label = "beep fx50s" },
         }
     },
     {
@@ -67,22 +71,32 @@ Config.VehicleCategories = {
         acePerm = "devx.vehiclemenu.funny",
         vehicles = {
             { name = "KKCenoura", label = "Carrot vandi" },
-            { name = "ringbati", label = "bike" },
             { name = "ag_flywc", label = "ag_flywc" },
+            { name = "ag_minecraftpig", label = "minecraftpig" },
+            { name = "puipui", label = "puipui" },
             { name = "drag", label = "dragon" },
             { name = "banana_car", label = "banana_car" },
             { name = "foodvan", label = "foodvan" },
             { name = "tacotuck", label = "tacotuck" },
+            { name = "babywalker", label = "babywalker" },
         }
     },
     {
-        label = "Fly",
-        acePerm = "devx.vehiclemenu.fly",
+        label = "BMW",
+        acePerm = "devx.vehiclemenu.bmw",
         vehicles = {
-            { name = "thruster4", label = "Butterfly heli" },
-            { name = "dkbatwing", label = "Batman 1" },
-            { name = "bvsbatwing", label = "Batman 2" },
-            { name = "19890604", label = "Parakana vandi" },
+            { name = "mansm4", label = "mansm4" },
+            { name = "m3kean", label = "m3kean" },
+            { name = "demod_e92bagged", label = "BMW old" },
+            { name = "GODzBMWS1000RR", label = "S1000RR" },
+            { name = "ikx3_m390", label = "m390" },
+            { name = "bmwhommage", label = "bmwhommage" },
+            { name = "m4hycade21", label = "m4hycade21" },
+            { name = "x3m4gt322", label = "M4" },
+            { name = "pbbmwm3", label = "M4 animated" },
+            { name = "rmodm8c", label = "M8 comp" },
+            { name = "x6m47", label = "x6m47" },
+            { name = "e60", label = "e60" },
         }
     },
     {
@@ -99,13 +113,13 @@ Config.VehicleCategories = {
             { name = "DBDEFz_Pinky", label = "DBDEFz_Pinky" },
             { name = "ikx3_srt170", label = "srt170" },
             { name = "ikx3_sfnf1", label = "sfnf1" },
-            { name = "ikx3_m390", label = "m390" },
             { name = "ikx3_gtd25", label = "gtd25" },
             { name = "GODzR36CONCEPT", label = "R36CONCEPT" },
             { name = "lmboss427", label = "gstrufboss1" },
             { name = "ikx3_cc23", label = "cc23" },
             { name = "ikx3_vanq25b", label = "vanq25b" },
             { name = "ikx3gt3rs23", label = "gt3rs23" },
+            { name = "amggt320", label = "amggt320" },
         }
     },
     {
@@ -149,21 +163,39 @@ Config.VehicleCategories = {
         }
     },
     {
+        label = "PD",
+        acePerm = "devx.vehiclemenu.pd",
+        vehicles = {
+            { label = "PD skyline", name = "poskyline" },
+            { label = "PD raptor", name = "therampol" },
+            { label = "PD vandi2", name = "polalamop" },
+            { label = "PD vandi3", name = "polalamop2" },
+            { label = "PD vandi4", name = "polbisonp" },
+            { label = "PD vandi5", name = "polbuffalop" },
+            { label = "PD vandi6", name = "polbuffalop2" },
+            { label = "PD vandi7", name = "polcarap" },
+            { label = "PD vandi8", name = "polcoquettep" },
+            { label = "PD vandi9", name = "poldmntp" },
+            { label = "PD vandi10", name = "polfugitivep" },
+            { label = "PD vandi11", name = "polgauntletp" },
+            { label = "PD vandi12", name = "polgresleyp" },
+            { label = "PD vandi13", name = "polscoutp" },
+            { label = "PD vandi14", name = "polspeedop" },
+            { label = "PD vandi15", name = "polstalkerp" },
+            { label = "PD vandi16", name = "polstanierp" },
+            { label = "PD vandi17", name = "poltorencep" },
+            { label = "PD vandi18", name = "polvigerop"},
+        }
+    },
+    {
         label = "OTHER",
         acePerm = "devx.vehiclemenu.other",
         vehicles = {
             { name = "senny", label = "Senny" },
-            { name = "x3m4gt322", label = "M4" },
             { name = "r34hugo", label = "R34" },
-            { name = "puipui", label = "puipui" },
             { name = "lotelise190", label = "lotelise190" },
-            { name = "ag_minecraftpig", label = "minecraftpig" },
             { name = "c8z06abflug", label = "c8z06abflug" },
             { name = "bhorschetaytrs", label = "porche" },
-            { name = "demod_e92bagged", label = "BMW" },
-            { name = "x3m4gt322", label = "M4" },
-            { name = "pbbmwm3", label = "M4 animated" },
-            { name = "rmodm8c", label = "M8 comp" },
             { name = "slsr", label = "slsr" },
             { name = "agerasuper", label = "agerasuper" },
             { name = "ugcgojira", label = "GTR" },
@@ -171,7 +203,9 @@ Config.VehicleCategories = {
             { name = "gti8", label = "gti8" },
             { name = "mustanghycade", label = "mustanghycade" },
             { name = "ftype2022", label = "ftype2022" },
-            { name = "x6m47", label = "x6m47" },
+            { name = "oycgr", label = "oycgr" },
+            { name = "br900m", label = "br900m" },
+            { name = "CCSubie", label = "CCSubie" },
         }
     },
 }
